@@ -14,11 +14,11 @@ export const CounterApp = ( { value } ) => {
     setCounter ( (c) => c + 1 )
   }
 
-  const handleSubstract= () => { 
+  const handleSubstract = () => { 
     setCounter ( (c) => c - 1 )
   }
 
-  const handleReset= () => { 
+  const handleReset = () => { 
     setCounter ( value )
   } 
 
